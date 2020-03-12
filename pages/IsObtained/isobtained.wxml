@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <view class="header">
+    <!-- bindtap点击事件 -->
+      <text class="title">复烤</text>
+      <image class="titleimg" src="../../images/index-2.png" mode="scaleToFill" lazy-load="false"/>
+    </view>
+    <view class="videodiv">
+      <image class="video" src="../../images/index-6.png" mode="scaleToFill	" lazy-load="false" />
+    </view>
+  </view>
+  <view class="usermotto">
+    <view class="zhibo">
+      <text>房间：9074K</text>
+      <text class="titleft">人气：51.6万</text>
+      <text class="titleft">类别：舞蹈</text>
+    </view>
+    <view class="synopsis">
+      <view class="S_tit">简介：</view>
+      <scroll-view class="S_explain">{{S_explain}}</scroll-view>
+    </view>
+  </view>
+  <view class="userfooter">
+    <view class="listtop">
+      <text class="select topone" bindtap="obtained">复烤</text>
+      <text class="toptwo">卷烟</text>
+      <text>物流</text>
+    </view>
+    <view class="btnlistimg">
+      <image class="btnlist" src="../../images/index-11.png" mode="scaleToFill"	lazy-load="false"/>
+    </view>
+    <view class="listbottom">
+      <text class="bottomone">农业</text>
+      <text class="bottomtwo">制丝</text>
+      <text class="bottomthree">包装</text>
+      <text>商业</text>
+    </view>
+  </view>
+</view>

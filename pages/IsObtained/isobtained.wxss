@@ -1,0 +1,126 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  width: 750rpx;
+  height: 507rpx;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+  width: 750rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 0rpx;
+  box-sizing: border-box;
+}
+.title{
+  position: absolute;
+  top: 0rpx;
+  left: 33rpx;
+  font-size: 32rpx;
+  color: #ffffff;
+  z-index: 1;
+}
+.titleimg{
+  width: 750rpx;
+  height: 88rpx;
+}
+.videodiv{
+  width: 750rpx;
+  height: 420rpx;
+}
+.video{
+  width: 750rpx;
+  height: 420rpx;
+}
+.usermotto {
+  width: 750rpx;
+  height: 535rpx;
+  background-color: #212121;
+}
+.zhibo{
+  width: 690rpx;
+  height: 83rpx;
+  margin-left: 30rpx;
+  line-height: 83rpx;
+  color: #ffffff;
+  border-bottom: 1px solid #363636;
+}
+.zhibo text{
+  font-size: 24rpx;
+}
+.titleft{
+  margin-left: 52rpx;
+}
+.synopsis{
+  width: 680rpx;
+  height: 485rpx;
+  margin-left: 29rpx;
+}
+.S_tit{
+  width: 680rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.S_explain{
+  width: 680rpx;
+  height: 340rpx;
+  margin-top: 2rpx;
+  text-indent:2em;
+  color: #7F8699;
+  font-size: 24rpx;
+}
+.userfooter{
+  width: 750rpx;
+  height: 178rpx;
+  background-color: #141414;
+  overflow: hidden;
+}
+.listtop,.listbottom{
+  width: 750rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  font-size: 23rpx;
+  color: #7F8699;
+}
+.listtop{
+  margin-top: 42rpx;
+}
+.listtop .topone{
+  margin-left: 156rpx;
+}
+.listtop .toptwo{
+  margin-left: 156rpx;
+  margin-right: 163rpx;
+}
+.listbottom{
+  margin-top: 15rpx;
+}
+.bottomone{
+  margin-left: 45rpx;
+}
+.bottomtwo{
+  margin-left: 172rpx;
+  margin-right: 160rpx;
+}
+.bottomthree{
+  margin-right: 155rpx;
+}
+.btnlistimg{
+  width: 630rpx;
+  height: 26rpx;
+  margin-top: 6rpx;
+  margin-left: 63rpx;
+}
+.btnlist{
+  width: 630rpx;
+  height: 26rpx;
+}
+.select{
+  color: #329CFF;
+}

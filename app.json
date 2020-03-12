@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cutTobacco/cutobacco",
+    "pages/packaging/packaging",
+    "pages/cigarette/cigarette",
+    "pages/business/business",
+    "pages/IsObtained/isobtained",
+    "pages/logistics/logistics"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "烟草工业",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
